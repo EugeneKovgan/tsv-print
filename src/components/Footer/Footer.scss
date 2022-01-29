@@ -1,10 +1,11 @@
-// .footer {
-
-// }
-.container {
-    margin: 0 auto;
-    max-width: 80%;
+.footer {
+    margin-top: auto;
+    border-top: 1px solid #d2d2d7;
 }
+// .container {
+//     margin: 0 auto;
+//     max-width: 80%;
+// }
 
 a {
     text-decoration: none;
@@ -21,7 +22,8 @@ li a svg:hover {
 .article-list {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
+    padding-top: 15px;
     margin: 0;
     padding-left: 10px;
 }

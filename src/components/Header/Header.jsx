@@ -1,12 +1,15 @@
 import { NavLink } from "react-router-dom";
 import "./Header.scss";
 import { Button, Navbar, Container, Nav, NavDropdown, Form, FormControl } from "react-bootstrap";
+import mts_logo from "../../assets/img/mts_logo.png";
+import a1_logo from "../../assets/img/a1_logo.png";
+import viber_logo from "../../assets/img/viber_logo.png";
 
 const Header = () => {
     return (
         <Navbar collapseOnSelect expand="lg" variant="dark" sticky="top">
             <Container>
-                <NavLink className={"navbar-brand navnav"} to="/about-us">
+                <NavLink className={"navbar-brand navnav"} to="/tsv-print">
                     TSV-print
                 </NavLink>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -27,13 +30,21 @@ const Header = () => {
                         <NavLink className={"nav-link"} to="/articles">
                             Статьи
                         </NavLink>
-                        <NavLink className={"nav-link"} to="/contacts">
+                        {/* <NavLink className={"nav-link"} to="/contacts">
                             Контакты
-                        </NavLink>
-                        <NavDropdown title="(Выпадалка. Что б сюда засунуть?)" id="collasible-nav-dropdown">
-                            <NavDropdown.Item href="#action/3.1">Тыц номер 1</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.2">Тыц номер 2</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3">Тыц номер 3</NavDropdown.Item>
+                        </NavLink> */}
+                        <NavDropdown to="/contacts" title="Контакты" id="collasible-nav-dropdown">
+                            <NavDropdown.Item href="tel:+375295745959">
+                                <img className="logo" src={mts_logo} /> +375 29 574 59 59
+                            </NavDropdown.Item>
+                            <NavDropdown.Item href="tel:+375296678347">
+                                <img className="logo" src={a1_logo} />
+                                +375 29 667 83 47
+                            </NavDropdown.Item>
+                            <NavDropdown.Item href="tel:+375296678347">
+                                <img className="logo" src={viber_logo} />
+                                +375 29 667 83 47
+                            </NavDropdown.Item>
                             <NavDropdown.Divider />
                             <NavDropdown.Item href="#action/3.4">Можнет вообще это убрать?</NavDropdown.Item>
                         </NavDropdown>

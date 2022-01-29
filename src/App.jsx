@@ -16,15 +16,15 @@ function App() {
             <Router>
                 <Header />
                 <Routes>
-                    <Route path="/about-us" element={<AboutUs />} />
+                    <Route exact path="/tsv-print" element={<AboutUs />} />
                     <Route path="/services" element={<Services />} />
                     <Route path="/price" element={<Price />} />
                     <Route path="/comments" element={<Comments />} />
                     <Route path="/articles" element={<Articles />} />
-                    <Route path="/contacts" element={<Contacts />} />
+                    {/* <Route path="/contacts" element={<Contacts />} /> */}
                     <Route path="*" element={<Error />} />
                 </Routes>
-                <Footer />
+                <Footer className={"footer"} />
             </Router>
         </div>
     );
