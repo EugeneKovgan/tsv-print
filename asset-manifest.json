@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/tsv-print/static/css/main.09cc8730.css",
-    "main.js": "/tsv-print/static/js/main.338944f1.js",
+    "main.js": "/tsv-print/static/js/main.ee82f3b6.js",
     "static/js/787.78a51ed2.chunk.js": "/tsv-print/static/js/787.78a51ed2.chunk.js",
     "static/media/office-4.jpg": "/tsv-print/static/media/office-4.6e7e9ac5cb494d6e397c.jpg",
     "index.html": "/tsv-print/index.html",
     "main.09cc8730.css.map": "/tsv-print/static/css/main.09cc8730.css.map",
-    "main.338944f1.js.map": "/tsv-print/static/js/main.338944f1.js.map",
+    "main.ee82f3b6.js.map": "/tsv-print/static/js/main.ee82f3b6.js.map",
     "787.78a51ed2.chunk.js.map": "/tsv-print/static/js/787.78a51ed2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.09cc8730.css",
-    "static/js/main.338944f1.js"
+    "static/js/main.ee82f3b6.js"
   ]
 }
