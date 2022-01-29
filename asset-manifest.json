@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/tsv-print/static/css/main.8c18a2c2.css",
+    "main.js": "/tsv-print/static/js/main.3c02b49b.js",
+    "static/js/787.78a51ed2.chunk.js": "/tsv-print/static/js/787.78a51ed2.chunk.js",
+    "index.html": "/tsv-print/index.html",
+    "main.8c18a2c2.css.map": "/tsv-print/static/css/main.8c18a2c2.css.map",
+    "main.3c02b49b.js.map": "/tsv-print/static/js/main.3c02b49b.js.map",
+    "787.78a51ed2.chunk.js.map": "/tsv-print/static/js/787.78a51ed2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8c18a2c2.css",
+    "static/js/main.3c02b49b.js"
+  ]
+}
