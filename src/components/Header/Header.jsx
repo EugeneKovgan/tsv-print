@@ -6,15 +6,15 @@ const Header = () => {
     return (
         <Navbar collapseOnSelect expand="lg" variant="dark" sticky="top">
             <Container>
-                {/* <NavLink className={"navbar-brand navnav"} to="/about-us">
+                <NavLink className={"navbar-brand navnav"} to="/about-us">
                     TSV-print
-                </NavLink> */}
+                </NavLink>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
-                        <NavLink className={"nav-link"} to="/about-us">
+                        {/* <NavLink className={"nav-link"} to="/about-us">
                             О нас
-                        </NavLink>
+                        </NavLink> */}
                         <NavLink className={"nav-link"} to="/services">
                             Услуги
                         </NavLink>
