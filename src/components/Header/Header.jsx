@@ -9,7 +9,7 @@ const Header = () => {
     return (
         <Navbar collapseOnSelect expand="lg" variant="dark" sticky="top">
             <Container>
-                <NavLink className={"navbar-brand navnav"} to="/tsv-print">
+                <NavLink className={"navbar-brand navnav"} to="/">
                     TSV-print
                 </NavLink>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -18,16 +18,16 @@ const Header = () => {
                         {/* <NavLink className={"nav-link"} to="/about-us">
                             О нас
                         </NavLink> */}
-                        <NavLink className={"nav-link"} to="/services">
+                        <NavLink className={"nav-link"} to="/services/">
                             Услуги
                         </NavLink>
-                        <NavLink className={"nav-link"} to="/price">
+                        <NavLink className={"nav-link"} to="/price/">
                             Цены
                         </NavLink>
-                        <NavLink className={"nav-link"} to="/comments">
+                        <NavLink className={"nav-link"} to="/comments/">
                             Отзывы
                         </NavLink>
-                        <NavLink className={"nav-link"} to="/articles">
+                        <NavLink className={"nav-link"} to="/articles/">
                             Статьи
                         </NavLink>
                         {/* <NavLink className={"nav-link"} to="/contacts">
