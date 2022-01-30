@@ -1,19 +1,18 @@
 {
   "files": {
-    "main.css": "/tsv-print/static/css/main.290a51c7.css",
-    "main.js": "/tsv-print/static/js/main.e0184bc9.js",
+    "main.css": "/tsv-print/static/css/main.634954f9.css",
+    "main.js": "/tsv-print/static/js/main.28e2a1b9.js",
     "static/js/787.78a51ed2.chunk.js": "/tsv-print/static/js/787.78a51ed2.chunk.js",
     "static/media/viber_logo.png": "/tsv-print/static/media/viber_logo.97b09b153efd8788e501.png",
     "static/media/office-4.jpg": "/tsv-print/static/media/office-4.6e7e9ac5cb494d6e397c.jpg",
-    "static/media/mts_logo.png": "/tsv-print/static/media/mts_logo.2b223bd4b46549d80bb8.png",
     "static/media/a1_logo.png": "/tsv-print/static/media/a1_logo.c5f344290236f9a84b53.png",
     "index.html": "/tsv-print/index.html",
-    "main.290a51c7.css.map": "/tsv-print/static/css/main.290a51c7.css.map",
-    "main.e0184bc9.js.map": "/tsv-print/static/js/main.e0184bc9.js.map",
+    "main.634954f9.css.map": "/tsv-print/static/css/main.634954f9.css.map",
+    "main.28e2a1b9.js.map": "/tsv-print/static/js/main.28e2a1b9.js.map",
     "787.78a51ed2.chunk.js.map": "/tsv-print/static/js/787.78a51ed2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.290a51c7.css",
-    "static/js/main.e0184bc9.js"
+    "static/css/main.634954f9.css",
+    "static/js/main.28e2a1b9.js"
   ]
 }
