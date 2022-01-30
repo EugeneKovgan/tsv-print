@@ -1,6 +1,4 @@
-import { NavLink } from "react-router-dom";
 import "./Footer.scss";
-import { Button, Navbar, Container, Nav, NavDropdown, Form, FormControl } from "react-bootstrap";
 
 const Footer = () => {
     return (
@@ -15,8 +13,8 @@ const Footer = () => {
                             <a href="https://github.com/eugenekovgan">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
-                                    width="36"
-                                    height="36"
+                                    width="25"
+                                    height="25"
                                     fill="currentColor"
                                     class="bi bi-github"
                                     viewBox="0 0 16 16"

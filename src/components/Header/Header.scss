@@ -7,3 +7,18 @@
     height: 25px;
     margin-right: 10px;
 }
+.soc-block {
+    top: 5px;
+    display: flex;
+    // text-align: center;
+    margin: auto;
+    margin-right: 0;
+}
+.soc-block li a {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+}
+.soc-block li svg {
+    fill: #fff;
+}
