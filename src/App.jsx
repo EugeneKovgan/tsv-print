@@ -16,11 +16,11 @@ function App() {
             <Router>
                 <Header />
                 <Routes>
-                    <Route exact path="/" element={<AboutUs />} />
-                    <Route path="/services/" element={<Services />} />
-                    <Route path="/price/" element={<Price />} />
-                    <Route path="/comments/" element={<Comments />} />
-                    <Route path="/articles/" element={<Articles />} />
+                    <Route exact path="/tsv-print" element={<AboutUs />} />
+                    <Route path="/services" element={<Services />} />
+                    <Route path="/price" element={<Price />} />
+                    <Route path="/comments" element={<Comments />} />
+                    <Route path="/articles" element={<Articles />} />
                     {/* <Route path="/contacts" element={<Contacts />} /> */}
                     <Route path="*" element={<Error />} />
                 </Routes>
