@@ -1,8 +1,8 @@
-import "./AboutUs.scss";
+import "./Home.scss";
 import Carousel from "react-bootstrap/Carousel";
 import office from "../../assets/img/office-4.jpg";
 
-const AboutUs = () => {
+const Home = () => {
     return (
         <div className="wrapper">
             <h3>О нас</h3>
@@ -48,4 +48,4 @@ const AboutUs = () => {
     );
 };
 
-export default AboutUs;
+export default Home;

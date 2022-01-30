@@ -9,15 +9,12 @@ const Header = () => {
     return (
         <Navbar collapseOnSelect expand="lg" variant="dark" sticky="top">
             <Container>
-                <NavLink className={"navbar-brand navnav"} to="/tsv-print">
+                <NavLink className={"navbar-brand navnav"} to="/">
                     TSV-print
                 </NavLink>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
-                        {/* <NavLink className={"nav-link"} to="/about-us">
-                            О нас
-                        </NavLink> */}
                         <NavLink className={"nav-link"} to="/services">
                             Услуги
                         </NavLink>
@@ -30,23 +27,27 @@ const Header = () => {
                         <NavLink className={"nav-link"} to="/articles">
                             Статьи
                         </NavLink>
-                        {/* <NavLink className={"nav-link"} to="/contacts">
-                            Контакты
-                        </NavLink> */}
                         <NavDropdown to="/contacts" title="Контакты" id="collasible-nav-dropdown">
                             <NavDropdown.Item href="tel:+375295745959">
-                                <img className="logo" src={mts_logo} /> +375 29 574 59 59
+                                <img className="logo" src={mts_logo} /> +375-29-574-59-59
                             </NavDropdown.Item>
                             <NavDropdown.Item href="tel:+375296678347">
                                 <img className="logo" src={a1_logo} />
-                                +375 29 667 83 47
+                                +375-29-667-83-47
                             </NavDropdown.Item>
                             <NavDropdown.Item href="tel:+375296678347">
                                 <img className="logo" src={viber_logo} />
-                                +375 29 667 83 47
+                                +375-29-667-83-47
                             </NavDropdown.Item>
-                            {/* <NavDropdown.Divider />
-                            <NavDropdown.Item href="#action/3.4">Можнет вообще это убрать?</NavDropdown.Item> */}
+                            <NavDropdown.Divider />
+                            {/* <NavLink className={"nav-link contacts"} to="/contacts">
+                                Контакты
+                            </NavLink> */}
+                            <NavDropdown.Item tp="/contacts">
+                                <NavLink className={"nav-link nav-link-contacts"} to="/contacts">
+                                    Контакты
+                                </NavLink>
+                            </NavDropdown.Item>
                         </NavDropdown>
                     </Nav>
 
