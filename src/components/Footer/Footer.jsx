@@ -7,7 +7,7 @@ const Footer = () => {
                 <article aria-label="article">
                     <ul className="article-list">
                         <li>
-                            <span>Designed by Eugene Kovgan 2022</span>
+                            <span>© 2022 Designed by Eugene Kovgan</span>
                         </li>
                         <li>
                             <a href="https://github.com/eugenekovgan">

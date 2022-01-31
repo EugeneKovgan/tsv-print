@@ -9,7 +9,7 @@ const Header = () => {
     return (
         <Navbar collapseOnSelect expand="lg" variant="dark" sticky="top">
             <Container>
-                <NavLink className={"navbar-brand navnav"} to="/">
+                <NavLink className={"navbar-brand"} to="/tsv-print">
                     TSV-print
                 </NavLink>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -45,7 +45,7 @@ const Header = () => {
                             </NavLink> */}
                             <NavDropdown.Item tp="/contacts">
                                 <NavLink className={"nav-link nav-link-contacts"} to="/contacts">
-                                    Контакты
+                                    Прочая информация
                                 </NavLink>
                             </NavDropdown.Item>
                         </NavDropdown>

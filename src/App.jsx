@@ -16,7 +16,7 @@ function App() {
             <Router>
                 <Header />
                 <Routes>
-                    <Route exact path="/" element={<Home />} />
+                    <Route path="/tsv-print" element={<Home />} />
                     <Route path="/services" element={<Services />} />
                     <Route path="/price" element={<Price />} />
                     <Route path="/comments" element={<Comments />} />
