@@ -5,4 +5,27 @@
     // background-color: gba(0, 0, 0, 0.8);
     font-size: 5rem;
     margin-bottom: 2rem;
+    // margin-top: 3rem;
+}
+@media (max-width: 767px) {
+    .home .slider_text {
+        box-shadow: 5px 5px 5px 5px rgb(53, 51, 51);
+    }
+    .home .slider_text {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 520px) {
+    .home .slider_text {
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+    }
+}
+@media (max-width: 360px) {
+    .home .slider_text {
+        font-size: 1.75rem;
+        margin-bottom: 0.5rem;
+    }
 }
