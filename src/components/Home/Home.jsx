@@ -4,31 +4,39 @@ import office from "../../assets/img/office-4.jpg";
 
 const Home = () => {
     return (
-        <div className="wrapper">
+        <div className="wrapper home">
             {/* <h3>О нас</h3> */}
-            <h3>Упс! раздел находится в разработке. Приходите позже</h3>
+            {/* <h3>Упс! раздел находится в разработке. Приходите позже</h3> */}
             <Carousel interval="3000">
                 <Carousel.Item>
                     <img className="d-block w-100" src={office} alt="First slide" />
                     <Carousel.Caption>
-                        <h3 className="slider_text">First slide label</h3>
-                        <p className="slider_text">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <h3 className="slider_text">Заправка картриджей</h3>
+                        {/* <p className="slider_text">Работы осуществляются со спецпылесосом.</p> */}
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img className="d-block w-100" src={office} alt="Second slide" />
 
                     <Carousel.Caption>
-                        <h3 className="slider_text">Second slide label</h3>
-                        <p className="slider_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h3 className="slider_text">Ремонт и восстановление картриджей</h3>
+                        {/* <p className="slider_text">
+                            Полная сборка -разборка картриджа и диагностика деталей в Вашем присутствии.
+                        </p> */}
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img className="d-block w-100" src={office} alt="Third slide" />
-
                     <Carousel.Caption>
-                        <h3 className="slider_text">Third slide label</h3>
-                        <p className="slider_text">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        <h3 className="slider_text">Ремонт и обслуживание орг-техники</h3>
+                        {/* <p className="slider_text">Работы осуществляются со спецпылесосом.</p> */}
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img className="d-block w-100" src={office} alt="Fourth slide" />
+                    <Carousel.Caption>
+                        <h3 className="slider_text">Выезд специалиста</h3>
+                        {/* <p className="slider_text">Заправка у Вас дома или в офисе, в удобное для вас время.</p> */}
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
