@@ -5,7 +5,7 @@ import office from "../../assets/img/office-4.jpg";
 const Home = () => {
     return (
         <div className="wrapper">
-            <h3>О нас</h3>
+            {/* <h3>О нас</h3> */}
             <h3>Упс! раздел находится в разработке. Приходите позже</h3>
             <Carousel interval="3000">
                 <Carousel.Item>

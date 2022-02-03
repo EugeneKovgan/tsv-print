@@ -1,3 +1,4 @@
+import SocBlock from "../SocBlock/SocBlock";
 import "./Footer.scss";
 
 const Footer = () => {
@@ -7,14 +8,11 @@ const Footer = () => {
                 <article aria-label="article">
                     <ul className="article-list">
                         <li>
-                            <span>© 2022 Designed by Eugene Kovgan</span>
-                        </li>
-                        <li>
                             <a href="https://github.com/eugenekovgan">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
-                                    width="25"
-                                    height="25"
+                                    width="30"
+                                    height="30"
                                     fill="currentColor"
                                     className="bi bi-github"
                                     viewBox="0 0 16 16"
@@ -23,6 +21,10 @@ const Footer = () => {
                                 </svg>
                             </a>
                         </li>
+                        <li>
+                            <span className="footer-span">© 2022 Designed by Eugene Kovgan</span>
+                        </li>
+                        <SocBlock />
                     </ul>
                 </article>
             </div>
