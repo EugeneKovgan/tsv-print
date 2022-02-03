@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/tsv-print/static/css/main.44442b7c.css",
+    "main.css": "/tsv-print/static/css/main.3a2e1b51.css",
     "main.js": "/tsv-print/static/js/main.36f4ed2f.js",
     "static/js/787.78a51ed2.chunk.js": "/tsv-print/static/js/787.78a51ed2.chunk.js",
     "static/media/sertificate.jpg": "/tsv-print/static/media/sertificate.acc0c02df728a502f49f.jpg",
@@ -9,12 +9,12 @@
     "static/media/a1_logo.png": "/tsv-print/static/media/a1_logo.c5f344290236f9a84b53.png",
     "static/media/favicon.png": "/tsv-print/static/media/favicon.dcc840155a1d5a45f48d.png",
     "index.html": "/tsv-print/index.html",
-    "main.44442b7c.css.map": "/tsv-print/static/css/main.44442b7c.css.map",
+    "main.3a2e1b51.css.map": "/tsv-print/static/css/main.3a2e1b51.css.map",
     "main.36f4ed2f.js.map": "/tsv-print/static/js/main.36f4ed2f.js.map",
     "787.78a51ed2.chunk.js.map": "/tsv-print/static/js/787.78a51ed2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.44442b7c.css",
+    "static/css/main.3a2e1b51.css",
     "static/js/main.36f4ed2f.js"
   ]
 }
