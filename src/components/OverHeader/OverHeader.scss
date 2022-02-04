@@ -1,0 +1,50 @@
+.over_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+    // margin-bottom: 5px;
+}
+
+.over_header .phones_block {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.over_header .phones_block .logo-mob-img {
+    margin-bottom: 5px;
+}
+
+@media (max-width: 470px) {
+    .over_header_title {
+        font-size: 1.75rem;
+    }
+    .over_header {
+        margin-top: 3px;
+    }
+}
+@media (max-width: 460px) {
+    .over_header_title {
+        font-size: 1.65rem;
+    }
+}
+@media (max-width: 447px) {
+    .over_header_title {
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 426px) {
+    .over_header_title {
+        font-size: 1.45rem;
+    }
+}
+@media (max-width: 420px) {
+    .over_header_title {
+        font-size: 1.4rem;
+    }
+}
+@media (max-width: 413px) {
+    .over_header_title {
+        font-size: 1.3rem;
+    }
+}

@@ -1,3 +1,7 @@
+* {
+    // padding: 10px 15px 10px 15px;
+    font-family: "Open Sans", sans-serif;
+}
 html {
     overflow-y: scroll;
     margin: 0 auto;
@@ -6,12 +10,13 @@ html {
     display: inline-block;
     max-width: 100%;
 }
-* li {
+li {
     list-style: none;
 }
 a {
     text-decoration: none;
 }
+
 // text-align: center;
 .App {
     min-height: 100vh;
@@ -28,10 +33,16 @@ a {
     margin: 0 auto;
     max-width: 1320px;
 }
-p,
-h3,
-h4,
-h5 {
-    padding: 10px 15px 10px 15px;
-    font-family: "Open Sans", sans-serif;
+li a svg {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.2s;
+    margin: 0 auto;
+}
+
+li a svg:hover {
+    transform: scale(1.2);
+}
+.content-container {
+    padding: 20px;
 }

@@ -8,10 +8,10 @@
     margin-left: 8px;
 }
 
-a {
-    text-decoration: none;
-    color: black;
-}
+// .footer a {
+//     text-decoration: none;
+//     color: black;
+// }
 
 .article-list {
     display: flex;
@@ -22,9 +22,16 @@ a {
     padding-left: 0;
 }
 
-.footer .soc-block li svg {
+.footer li a svg {
     fill: #000;
 }
-// .footer svg {
-//     fill: #000;
-// }
+@media (max-width: 428px) {
+    .git-icon {
+        display: none;
+    }
+    .footer span {
+        margin-top: 0px;
+        // font-size: 0px;
+        margin-left: 0px;
+    }
+}

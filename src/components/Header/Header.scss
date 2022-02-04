@@ -16,14 +16,20 @@
 .nav-link-contacts {
     color: black !important;
 }
-.logo-mob-title {
-    margin-bottom: 3px;
+
+.header li a svg {
+    fill: #fff;
 }
-.logo-mob-img {
-    width: 25px;
+.header .phones_block .logo-mob-title {
+    margin-bottom: 5px;
+}
+.header .phones_block .logo-mob-img {
     margin-right: 5px;
 }
 
-.header .soc-block li svg {
-    fill: #fff;
+@media (max-width: 992px) {
+    .header .soc-block {
+        // font-size: 1.75rem;
+        margin: 0.75rem 0.75rem 0.75rem -2.5rem;
+    }
 }
