@@ -1,23 +1,29 @@
 {
   "files": {
-    "main.css": "/tsv-print/static/css/main.5bf75c36.css",
-    "main.js": "/tsv-print/static/js/main.1b9e1e6d.js",
+    "main.css": "/tsv-print/static/css/main.70e48176.css",
+    "main.js": "/tsv-print/static/js/main.3cd147ff.js",
     "static/js/787.78a51ed2.chunk.js": "/tsv-print/static/js/787.78a51ed2.chunk.js",
     "static/media/sertificate.jpg": "/tsv-print/static/media/sertificate.acc0c02df728a502f49f.jpg",
     "static/media/office-1.jpg": "/tsv-print/static/media/office-1.313df937a446b15e2848.jpg",
+    "static/media/reason.png": "/tsv-print/static/media/reason.b9b4214d4a18ad182b42.png",
     "static/media/viber_logo.png": "/tsv-print/static/media/viber_logo.97b09b153efd8788e501.png",
+    "static/media/canon.png": "/tsv-print/static/media/canon.8d1fea6832eb9d364cb6.png",
+    "static/media/home_1.jpg": "/tsv-print/static/media/home_1.c6d69a6e629a07a5591b.jpg",
     "static/media/office-3.jpg": "/tsv-print/static/media/office-3.6e7e9ac5cb494d6e397c.jpg",
     "static/media/office-2.jpg": "/tsv-print/static/media/office-2.a7a65d4b780cadf89285.jpg",
     "static/media/telegram_logo.png": "/tsv-print/static/media/telegram_logo.9ea7cb1cd3c0c6424eed.png",
+    "static/media/samsung.png": "/tsv-print/static/media/samsung.a738f0d67819a71227ba.png",
+    "static/media/ricoh.png": "/tsv-print/static/media/ricoh.defb2024ae05eeccd6fb.png",
     "static/media/a1_logo.png": "/tsv-print/static/media/a1_logo.c5f344290236f9a84b53.png",
+    "static/media/hewlett-packard.png": "/tsv-print/static/media/hewlett-packard.74033cf53c50ace4a590.png",
     "static/media/favicon.png": "/tsv-print/static/media/favicon.dcc840155a1d5a45f48d.png",
     "index.html": "/tsv-print/index.html",
-    "main.5bf75c36.css.map": "/tsv-print/static/css/main.5bf75c36.css.map",
-    "main.1b9e1e6d.js.map": "/tsv-print/static/js/main.1b9e1e6d.js.map",
+    "main.70e48176.css.map": "/tsv-print/static/css/main.70e48176.css.map",
+    "main.3cd147ff.js.map": "/tsv-print/static/js/main.3cd147ff.js.map",
     "787.78a51ed2.chunk.js.map": "/tsv-print/static/js/787.78a51ed2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5bf75c36.css",
-    "static/js/main.1b9e1e6d.js"
+    "static/css/main.70e48176.css",
+    "static/js/main.3cd147ff.js"
   ]
 }
