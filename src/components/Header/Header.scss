@@ -21,10 +21,12 @@
     fill: #fff;
 }
 .header .phones_block .logo-mob-title {
-    margin-bottom: 5px;
+    margin-bottom: 7px;
+    // margin-top: 5px;
 }
 .header .phones_block .logo-mob-img {
     margin-right: 5px;
+    margin-top: -5px;
 }
 
 @media (max-width: 992px) {

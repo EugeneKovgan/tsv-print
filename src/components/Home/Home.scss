@@ -7,6 +7,19 @@
     margin-bottom: 2rem;
     // margin-top: 3rem;
 }
+.carusele-block {
+}
+.carusele_img-block {
+    height: 70vh;
+}
+.carusele_img {
+    margin: auto;
+    // align-items: center;
+    // height: auto;
+    // max-height: 80vh;
+    width: 100%;
+    overflow: hidden;
+}
 @media (max-width: 767px) {
     .home .slider_text {
         box-shadow: 5px 5px 5px 5px rgb(53, 51, 51);
