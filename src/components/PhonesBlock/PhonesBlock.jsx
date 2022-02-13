@@ -10,7 +10,8 @@ const PhonesBlock = () => {
     return (
         <div className="phones_block">
             <NavDropdown.Item className="logo-mob-title" href="tel:+375295745959">
-                <img className="logo-mob-img" src={mts_logo} alt="mts_logo" /> +375-29-574-59-59
+                <img className="logo-mob-img" src={mts_logo} alt="mts_logo" />
+                +375-29-574-59-59
             </NavDropdown.Item>
             <NavDropdown.Item className="logo-mob-title" href="tel:+375296678347">
                 <img className="logo-mob-img" src={a1_logo} alt="a1_logo" />

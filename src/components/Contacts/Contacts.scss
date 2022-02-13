@@ -1,1 +1,19 @@
+.content-container_info-block {
+    display: flex;
+    flex-direction: row;
+    // flex-direction: row;
+    // flex-wrap: wrap;
+}
 
+@media (max-width: 860px) {
+    .content-container_info-block {
+        flex-direction: column;
+    }
+    .contacts_1_img {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}
+// .contacts_1_img {
+//     float: right;
+// }

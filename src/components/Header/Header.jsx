@@ -41,7 +41,7 @@ const Header = () => {
                         </NavDropdown>
                     </Nav>
 
-                    <SocBlock />
+                    {/* <SocBlock /> */}
                 </Navbar.Collapse>
             </Container>
         </Navbar>

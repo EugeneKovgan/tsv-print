@@ -1,0 +1,28 @@
+.artical {
+    // margin: 20px;
+}
+.artical_info-block {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.reason_info-block {
+    display: flex;
+    flex-direction: row;
+}
+.reason_img {
+    // float: right;
+    max-width: 40%;
+    height: 100%;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 764px) {
+    .reason_info-block {
+        flex-direction: column;
+    }
+    .reason_img {
+        max-width: 100%;
+        // height: auto;
+    }
+}
