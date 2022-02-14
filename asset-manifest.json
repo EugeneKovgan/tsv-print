@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tsv-print/static/css/main.e2583a6a.css",
-    "main.js": "/tsv-print/static/js/main.40f6c5e5.js",
+    "main.css": "/tsv-print/static/css/main.a8bc6994.css",
+    "main.js": "/tsv-print/static/js/main.7cf6d72b.js",
     "static/js/787.78a51ed2.chunk.js": "/tsv-print/static/js/787.78a51ed2.chunk.js",
     "static/media/sertificate.jpg": "/tsv-print/static/media/sertificate.acc0c02df728a502f49f.jpg",
     "static/media/office-1.jpg": "/tsv-print/static/media/office-1.313df937a446b15e2848.jpg",
@@ -23,12 +23,12 @@
     "static/media/favicon.png": "/tsv-print/static/media/favicon.dcc840155a1d5a45f48d.png",
     "static/media/firmware_print.png": "/tsv-print/static/media/firmware_print.898bffb6282cc88f5474.png",
     "index.html": "/tsv-print/index.html",
-    "main.e2583a6a.css.map": "/tsv-print/static/css/main.e2583a6a.css.map",
-    "main.40f6c5e5.js.map": "/tsv-print/static/js/main.40f6c5e5.js.map",
+    "main.a8bc6994.css.map": "/tsv-print/static/css/main.a8bc6994.css.map",
+    "main.7cf6d72b.js.map": "/tsv-print/static/js/main.7cf6d72b.js.map",
     "787.78a51ed2.chunk.js.map": "/tsv-print/static/js/787.78a51ed2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e2583a6a.css",
-    "static/js/main.40f6c5e5.js"
+    "static/css/main.a8bc6994.css",
+    "static/js/main.7cf6d72b.js"
   ]
 }
