@@ -8,6 +8,7 @@ html {
     // font-size: 18px;
     display: inline-block;
     max-width: 100%;
+    // line-height: 1.7rem !important;
 }
 li {
     list-style: none;
@@ -15,8 +16,11 @@ li {
 a {
     text-decoration: none;
 }
-h5 {
-    line-height: 2rem important;
+
+h5,
+p {
+    line-height: 1.7rem !important;
+    margin-bottom: 0px !important;
 }
 
 // text-align: center;
@@ -28,12 +32,10 @@ h5 {
 .footer {
     margin-top: auto;
 }
-// .content {
-//     padding: 50px;
-// }
+
 .wrapper {
-    margin: 0 auto;
-    max-width: 1320px;
+    // margin: 0 auto;
+    // max-width: 1320px;
 }
 li a svg {
     width: 2.5rem;
@@ -46,5 +48,23 @@ li a svg:hover {
     transform: scale(1.2);
 }
 .content-container {
+    margin: 0 auto;
     padding: 1.5rem;
+    max-width: 1320px;
+}
+.content_mini-container {
+}
+.content_mini-container_img {
+    width: 35%;
+    height: 100%;
+}
+
+.accordion-item {
+    // border: 5px solid rgba(0, 0, 0, 0.125) !important;
+}
+
+@media (max-width: 380px) {
+    .content_mini-container_img {
+        display: none;
+    }
 }
