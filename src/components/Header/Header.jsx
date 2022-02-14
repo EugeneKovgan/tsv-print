@@ -1,6 +1,6 @@
 import "./Header.scss";
 import { NavLink } from "react-router-dom";
-import { Navbar, Container, Nav, NavDropdown, Link } from "react-bootstrap";
+import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
 import SocBlock from "../SocBlock/SocBlock";
 import PhonesBlock from "../PhonesBlock/PhonesBlock";
 import logo_tsv from "../../assets/img/favicon.png";
@@ -36,15 +36,22 @@ const Header = () => {
                         <NavLink onClick={() => setExpanded(false)} className={"nav-link"} to="/articles">
                             Статьи
                         </NavLink>
-                        <NavDropdown to="/contacts" title="Контакты" id="collasible-nav-dropdown">
+                        <NavLink onClick={() => setExpanded(false)} className={"nav-link"} to="/contacts">
+                            Контакты
+                        </NavLink>
+                        {/* <NavDropdown to="/contacts" title="Контакты" id="collasible-nav-dropdown">
                             <PhonesBlock />
                             <NavDropdown.Divider />
                             <NavDropdown.Item tp="/contacts">
-                                <NavLink className={"nav-link nav-link-contacts"} to="/contacts">
+                                <NavLink
+                                    onClick={() => setExpanded(false)}
+                                    className={"nav-link nav-link-contacts"}
+                                    to="/contacts"
+                                >
                                     Прочая информация
                                 </NavLink>
                             </NavDropdown.Item>
-                        </NavDropdown>
+                        </NavDropdown> */}
                     </Nav>
 
                     {/* <SocBlock /> */}
