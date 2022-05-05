@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/tsv-print/static/css/main.7fed694b.css",
+    "main.css": "/tsv-print/static/css/main.d708565c.css",
     "main.js": "/tsv-print/static/js/main.281dc1b3.js",
     "static/js/787.78a51ed2.chunk.js": "/tsv-print/static/js/787.78a51ed2.chunk.js",
     "static/media/sertificate.jpg": "/tsv-print/static/media/sertificate.acc0c02df728a502f49f.jpg",
@@ -23,12 +23,12 @@
     "static/media/favicon.png": "/tsv-print/static/media/favicon.dcc840155a1d5a45f48d.png",
     "static/media/firmware_print.png": "/tsv-print/static/media/firmware_print.898bffb6282cc88f5474.png",
     "index.html": "/tsv-print/index.html",
-    "main.7fed694b.css.map": "/tsv-print/static/css/main.7fed694b.css.map",
+    "main.d708565c.css.map": "/tsv-print/static/css/main.d708565c.css.map",
     "main.281dc1b3.js.map": "/tsv-print/static/js/main.281dc1b3.js.map",
     "787.78a51ed2.chunk.js.map": "/tsv-print/static/js/787.78a51ed2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7fed694b.css",
+    "static/css/main.d708565c.css",
     "static/js/main.281dc1b3.js"
   ]
 }
